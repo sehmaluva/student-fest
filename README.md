@@ -1,7 +1,7 @@
 
 # 🎃 Hacktoberfest Interactive Experience 2025 🎯
 
-## Hacktoberfest Community Starter – [v1.0] 🎃
+## Hacktoberfest Student Community Starter – [v1.0] 🎃
 
 [![GitHub contributors](https://img.shields.io/github/contributors/sehmaluva/hacktoberfest)](https://github.com/sehmaluva/hacktoberfest/contributors)
 [![GitHub issues](https://img.shields.io/github/issues/sehmaluva/hacktoberfest)](https://github.com/sehmaluva/hacktoberfest/issues)
