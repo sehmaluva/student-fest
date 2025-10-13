@@ -1,8 +1,8 @@
-# 🎃 Hacktoberfest Interactive Experience 2025 🎯# 🎃 Hacktoberfest Community Starter – [V2025] 🎃
+# 🎃 Hacktoberfest Interactive Experience 2025 🎯# 🎃 
 
+Hacktoberfest Community Starter – [v1.0] 🎃
 
-
-> 🚀 **A completely reimagined Hacktoberfest project** by [sehmaluva](https://github.com/sehmaluva)  > ⚠️ This is a **fork** of [AliceWonderland's Hacktoberfest Starter Project](https://github.com/AliceWonderland/hacktoberfest).  
+> 🚀 **A completely reimagined Hacktoberfest project** by [sehmaluva](https://github.com/sehmaluva)  > This is a **fork** of [AliceWonderland's Hacktoberfest Starter Project](https://github.com/AliceWonderland/hacktoberfest).  
 
 > Featuring interactive challenges, real-world projects, and gamified contributions!  > This version is maintained independently by [seh maluva](https://github.com/sehmaluva) with new tasks, improvements, and open community contributions.  
 
