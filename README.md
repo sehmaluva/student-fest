@@ -3,13 +3,13 @@
 
 ## Open Source Student Community Starter – [v1.0] 
 
-[![GitHub contributors](https://img.shields.io/github/contributors/sehmaluva/hacktoberfest)](https://github.com/sehmaluva/hacktoberfest/contributors)
-[![GitHub issues](https://img.shields.io/github/issues/sehmaluva/hacktoberfest)](https://github.com/sehmaluva/hacktoberfest/issues)
-[![GitHub PRs](https://img.shields.io/github/issues-pr/sehmaluva/hacktoberfest)](https://github.com/sehmaluva/hacktoberfest/pulls)
+[![GitHub contributors](https://img.shields.io/github/contributors/sehmaluva/student-fest)](https://github.com/sehmaluva/student-fest/contributors)
+[![GitHub issues](https://img.shields.io/github/issues/sehmaluva/student-fest)](https://github.com/sehmaluva/student-fest/issues)
+[![GitHub PRs](https://img.shields.io/github/issues-pr/sehmaluva/student-fest)](https://github.com/sehmaluva/student-fest/pulls)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 > 🚀 **A completely reimagined project** by [sehmaluva](https://github.com/sehmaluva)
-> This is a **fork** of [AliceWonderland's Hacktoberfest Starter Project](https://github.com/AliceWonderland/hacktoberfest)
+> This is a **fork** of [AliceWonderland's Student Fest Starter Project](https://github.com/AliceWonderland/student-fest)
 > Licensed under the [GNU GPLv3 License](LICENSE)
 
 ---
@@ -27,7 +27,7 @@ This isn't just another starter project – it's a **comprehensive platform** de
 #### 1. **Create Your Interactive Profile** 👤
 Build a dynamic profile showcasing your skills and progress:
 - Add your bio, skills, and goals
-- Track your Hacktoberfest progress
+- Track your Student Fest progress
 - Earn and display achievement badges
 - Connect with other contributors
 
@@ -57,8 +57,8 @@ Share useful utilities and automation:
 ### Step 1: Fork & Clone
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/hacktoberfest.git
-cd hacktoberfest
+git clone https://github.com/YOUR_USERNAME/student-fest.git
+cd student-fest
 ```
 
 ### Step 2: Choose Your Contribution
@@ -108,8 +108,8 @@ cd hacktoberfest
 - 🌍 **Inclusive** – Welcome contributors from all backgrounds
 
 ### Getting Help
-- 💬 **Discord Community**: [Join our server](https://discord.gg/hacktoberfest)
-- 🐛 **Issues**: [Report bugs or request features](https://github.com/sehmaluva/hacktoberfest/issues)
+- 💬 **Discord Community**: [Join our server](https://discord.gg/student-fest)
+- 🐛 **Issues**: [Report bugs or request features](https://github.com/sehmaluva/student-fest/issues)
 
 ### 🌟 Ways to Contribute
 
@@ -146,8 +146,8 @@ cd hacktoberfest
 
 1. **Fork & Clone the Repo**
 	```bash
-	git clone https://github.com/YOUR_USERNAME/hacktoberfest.git
-	cd hacktoberfest
+	git clone https://github.com/YOUR_USERNAME/student-fest.git
+	cd student-fest
 	```
 2. **Pick Your Contribution Path**
 	- [Create a Profile](templates/PROFILE_TEMPLATE.md)
@@ -159,7 +159,7 @@ cd hacktoberfest
 4. **Make Your Changes & Test Locally**
 5. **Open a Pull Request** (see our [PR Template](.github/pull_request_template.md))
 6. **Celebrate Your Contribution! 🎉**
-- 📧 **Discussions**: [Ask questions and share ideas](https://github.com/sehmaluva/hacktoberfest/discussions)
+- 📧 **Discussions**: [Ask questions and share ideas](https://github.com/sehmaluva/student-fest/discussions)
 - 👥 **Mentors**: Tag `@mentor` in issues for help
 
 ---
@@ -176,7 +176,7 @@ cd hacktoberfest
 
 ---
 
-## 🎉 Hacktoberfest 2025 Timeline
+## 🎉 Student Fest 2025 Timeline
 
 - **October 1-31**: Contribution period
 - **Daily**: New challenges and projects added
@@ -189,8 +189,8 @@ cd hacktoberfest
 ## 🙏 Acknowledgments
 
 ### Original Project
-- **AliceWonderland** – For the original Hacktoberfest starter project
-- **Hacktoberfest Team** – For organizing this amazing event
+- **AliceWonderland** – For the original Student Fest starter project
+- **Student Fest Team** – For organizing this amazing event
 
 ### Contributors
 This project thrives thanks to our amazing community! See our [Contributors Gallery](CONTRIBUTORS.md) for the full list.
@@ -199,7 +199,7 @@ This project thrives thanks to our amazing community! See our [Contributors Gall
 - 🌟 All our mentors and reviewers
 - 🎯 Challenge creators and project maintainers
 - 💬 Community moderators and helpers
-- 🚀 Everyone who makes Hacktoberfest special!
+- 🚀 Everyone who makes Student Fest special!
 
 ---
 
@@ -211,10 +211,10 @@ This project is licensed under the **GNU General Public License v3.0** – see t
 
 <div align="center">
 
-## 🎃 Happy Hacking! Let's Make Hacktoberfest 2025 Interactive! 🎯
+## � Happy Hacking! Let's Make Student Fest 2025 Interactive! 🎯
 
 **Remember**: Every contribution counts, no matter how small! 🌟
 
-[⭐ Star this repo](https://github.com/sehmaluva/hacktoberfest) • [🍴 Fork it](https://github.com/sehmaluva/hacktoberfest/fork) • [📝 Contribute](docs/guides/CONTRIBUTING.md)
+[⭐ Star this repo](https://github.com/sehmaluva/student-fest) • [🍴 Fork it](https://github.com/sehmaluva/student-fest/fork) • [📝 Contribute](docs/guides/CONTRIBUTING.md)
 
 </div>

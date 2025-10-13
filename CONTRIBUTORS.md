@@ -7,7 +7,7 @@ Welcome, first-time contributors! Complete these simple tasks to get started and
 1. **Add your name** to the contributors list below.
 2. **Write a fun fact** about yourself (e.g., favorite language, hobby, or emoji).
 3. **Solve the Hello World Emoji Challenge**: Add your favorite emoji next to your name.
-4. **Star this repository** ⭐ ([Click here!](https://github.com/sehmaluva/hacktoberfest))
+4. **Star this repository** ⭐ ([Click here!](https://github.com/sehmaluva/student-fest))
 5. **Open your first Pull Request** and get it merged!
 
 Once your PR is merged and you’ve completed these steps, you’ll appear on our [Live Contributors Page](web/contributors-live/)!
@@ -21,7 +21,7 @@ Welcome to our amazing community of contributors! This project wouldn't be possi
 ## 🚀 Project Maintainer
 
 **[sehmaluva](https://github.com/sehmaluva)** - *Project Creator & Lead Maintainer*
-- 🎯 Vision: Making Hacktoberfest interactive and engaging
+- 🎯 Vision: Making Student Fest interactive and engaging
 - 📅 Joined: October 2025
 - 🏆 Contributions: Project architecture, documentation, community building
 
