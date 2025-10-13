@@ -1,20 +1,20 @@
 
-# 🎃 Hacktoberfest Interactive Experience 2025 🎯
+# Open Source Interactive Experience 2025 🎯
 
-## Hacktoberfest Student Community Starter – [v1.0] 🎃
+## Open Source Student Community Starter – [v1.0] 
 
 [![GitHub contributors](https://img.shields.io/github/contributors/sehmaluva/hacktoberfest)](https://github.com/sehmaluva/hacktoberfest/contributors)
 [![GitHub issues](https://img.shields.io/github/issues/sehmaluva/hacktoberfest)](https://github.com/sehmaluva/hacktoberfest/issues)
 [![GitHub PRs](https://img.shields.io/github/issues-pr/sehmaluva/hacktoberfest)](https://github.com/sehmaluva/hacktoberfest/pulls)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-> 🚀 **A completely reimagined Hacktoberfest project** by [sehmaluva](https://github.com/sehmaluva)
+> 🚀 **A completely reimagined project** by [sehmaluva](https://github.com/sehmaluva)
 > This is a **fork** of [AliceWonderland's Hacktoberfest Starter Project](https://github.com/AliceWonderland/hacktoberfest)
 > Licensed under the [GNU GPLv3 License](LICENSE)
 
 ---
 
-## 🌟 Welcome to Interactive Hacktoberfest!
+## 🌟 Welcome to Interactive Programming Fest!
 
 This isn't just another starter project – it's a **comprehensive platform** designed to make your open source journey **engaging, educational, and rewarding**. Perfect for developers of all skill levels, from your first commit to advanced contributions!
 
