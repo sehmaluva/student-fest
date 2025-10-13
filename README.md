@@ -3,9 +3,9 @@
 
 ## Open Source Student Community Starter – [v1.0] 
 
-[![GitHub contributors](https://img.shields.io/github/contributors/sehmaluva/student-fest)](https://github.com/sehmaluva/student-fest/contributors)
-[![GitHub issues](https://img.shields.io/github/issues/sehmaluva/student-fest)](https://github.com/sehmaluva/student-fest/issues)
-[![GitHub PRs](https://img.shields.io/github/issues-pr/sehmaluva/student-fest)](https://github.com/sehmaluva/student-fest/pulls)
+[![GitHub contributors](https://img.shields.io/github/contributors/sehmaluva/student-fest)](https://github.com/sehmaluva/hacktoberfest/contributors)
+[![GitHub issues](https://img.shields.io/github/issues/sehmaluva/hacktoberfest)](https://github.com/sehmaluva/hacktoberfest/issues)
+[![GitHub PRs](https://img.shields.io/github/issues-pr/sehmaluva/hacktoberfest)](https://github.com/sehmaluva/hacktoberfest/pulls)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 > 🚀 **A completely reimagined project** by [sehmaluva](https://github.com/sehmaluva)
