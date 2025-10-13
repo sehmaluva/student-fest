@@ -1,0 +1,39 @@
+name: Update Contributors
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  update-json:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Get PR author
+        id: get_author
+        run: echo "::set-output name=author::${{ github.event.pull_request.user.login }}"
+
+      - name: Update contributors.json
+        run: |
+          # This is a simple placeholder script. A more robust solution would be needed.
+          # It assumes the contributor is not already in the file.
+          jq --arg username "${{ steps.get_author.outputs.author }}" \
+             --arg avatar "https://github.com/${{ steps.get_author.outputs.author }}.png" \
+             --arg profile "https://github.com/${{ steps.get_author.outputs.author }}" \
+             '. += [{
+               "username": $username,
+               "avatar_url": $avatar,
+               "profile_url": $profile,
+               "contributions": {"profiles": 0, "challenges": 0, "projects": 0, "scripts": 0},
+               "badges": ["First Steps"],
+               "fun_fact": "I love Hacktoberfest!",
+               "favorite_emoji": "🎉"
+             }]' web/contributors-live/contributors.json > tmp.json && mv tmp.json web/contributors-live/contributors.json
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "chore: update contributors.json"
+          file_pattern: "web/contributors-live/contributors.json"
