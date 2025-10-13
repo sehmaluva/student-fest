@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #ff69b4;
+}
+
+#contributors-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.contributor-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    transition: transform 0.2s;
+}
+
+.contributor-card:hover {
+    transform: translateY(-5px);
+}
+
+.contributor-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #ff69b4;
+}
+
+.contributor-card h2 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.contributor-card p {
+    font-style: italic;
+}
+
+.contributor-card .emoji {
+    font-size: 2rem;
+}

@@ -1,0 +1,19 @@
+[
+  {
+    "username": "sehmaluva",
+    "avatar_url": "https://github.com/sehmaluva.png",
+    "profile_url": "https://github.com/sehmaluva",
+    "contributions": {
+      "profiles": 1,
+      "challenges": 5,
+      "projects": 2,
+      "scripts": 3
+    },
+    "badges": [
+      "Project Creator",
+      "Hacktoberfest Hero"
+    ],
+    "fun_fact": "This project was built to make open source accessible to everyone!",
+    "favorite_emoji": "🚀"
+  }
+]
