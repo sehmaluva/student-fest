@@ -1,0 +1,91 @@
+name: 🏆 Badge Generator & Deployer
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+    types: [closed]
+
+jobs:
+  generate-badges:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 📥 Checkout code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: 🐍 Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: 📦 Install badge dependencies
+      run: |
+        pip install Pillow requests PyYAML
+
+    - name: 📊 Analyze contributions
+      run: |
+        python scripts/analyze_contributions.py
+
+    - name: 🎨 Generate contributor badges
+      run: |
+        python scripts/generate_badge_images.py
+
+    - name: 📈 Create contribution stats
+      run: |
+        python scripts/generate_stats.py
+
+    - name: 🚀 Upload badges as artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: contribution-badges
+        path: badges/
+
+  deploy-badges:
+    runs-on: ubuntu-latest
+    needs: generate-badges
+    if: github.ref == 'refs/heads/main'
+
+    steps:
+    - name: 📥 Checkout code
+      uses: actions/checkout@v4
+
+    - name: 📥 Download badges
+      uses: actions/download-artifact@v3
+      with:
+        name: contribution-badges
+        path: badges/
+
+    - name: 🚀 Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./badges
+        publish_branch: gh-pages
+        destination_dir: badges
+
+  update-readme:
+    runs-on: ubuntu-latest
+    needs: generate-badges
+    if: github.ref == 'refs/heads/main'
+
+    steps:
+    - name: 📥 Checkout code
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: 🔄 Update README with stats
+      run: |
+        python scripts/update_readme_stats.py
+
+    - name: 📝 Commit updated README
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add README.md
+        git commit -m "📊 Update contribution statistics" || echo "No changes to commit"
+        git push

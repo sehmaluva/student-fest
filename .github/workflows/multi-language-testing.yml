@@ -1,0 +1,88 @@
+name: 🧪 Multi-Language Testing
+
+on:
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'challenges/**'
+      - 'projects/**'
+
+jobs:
+  test-python:
+    runs-on: ubuntu-latest
+    if: contains(github.event.pull_request.changed_files, '.py')
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    - name: Install dependencies
+      run: pip install pytest flake8
+    - name: Lint with flake8
+      run: flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+    - name: Test with pytest
+      run: pytest challenges/ projects/ -v
+
+  test-javascript:
+    runs-on: ubuntu-latest
+    if: contains(github.event.pull_request.changed_files, '.js')
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+    - name: Install dependencies
+      run: npm install
+    - name: Lint with ESLint
+      run: npx eslint challenges/ projects/ --ext .js
+    - name: Test with Jest
+      run: npm test
+
+  test-java:
+    runs-on: ubuntu-latest
+    if: contains(github.event.pull_request.changed_files, '.java')
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Setup Java
+      uses: actions/setup-java@v4
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+    - name: Compile and Test
+      run: |
+        find challenges/ projects/ -name "*.java" -exec javac {} \;
+        find challenges/ projects/ -name "*Test.java" -exec java -cp . {} \;
+
+  test-go:
+    runs-on: ubuntu-latest
+    if: contains(github.event.pull_request.changed_files, '.go')
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Setup Go
+      uses: actions/setup-go@v4
+      with:
+        go-version: '1.21'
+    - name: Test
+      run: go test ./challenges/... ./projects/...
+
+  test-cpp:
+    runs-on: ubuntu-latest
+    if: contains(github.event.pull_request.changed_files, '.cpp')
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Setup CMake
+      uses: lukka/get-cmake@latest
+    - name: Configure and Build
+      run: |
+        mkdir build && cd build
+        cmake ..
+        make
+    - name: Test
+      run: cd build && ctest

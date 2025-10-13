@@ -1,0 +1,21 @@
+{
+  "username": "analyze",
+  "badges": [
+    {
+      "type": "script-writer",
+      "name": "Script Master",
+      "description": "Created utility scripts",
+      "image_path": "badges/analyze/script-writer.png",
+      "earned_date": "2025-10-13T13:25:52.097018"
+    },
+    {
+      "type": "first-contribution",
+      "name": "First Steps",
+      "description": "Made your first contribution",
+      "image_path": "badges/analyze/first-contribution.png",
+      "earned_date": "2025-10-13T13:25:52.102374"
+    }
+  ],
+  "total_badges": 2,
+  "generated_at": "2025-10-13T13:25:52.102490"
+}

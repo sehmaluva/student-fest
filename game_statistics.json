@@ -1,0 +1,20 @@
+{
+  "games_played": 1,
+  "games_won": 0,
+  "total_attempts": 10,
+  "best_score": 0,
+  "difficulty_stats": {
+    "Easy": {
+      "played": 1,
+      "won": 0
+    },
+    "Medium": {
+      "played": 0,
+      "won": 0
+    },
+    "Hard": {
+      "played": 0,
+      "won": 0
+    }
+  }
+}
