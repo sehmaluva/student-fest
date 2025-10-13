@@ -28,7 +28,7 @@ jobs:
                "profile_url": $profile,
                "contributions": {"profiles": 0, "challenges": 0, "projects": 0, "scripts": 0},
                "badges": ["First Steps"],
-               "fun_fact": "I love Hacktoberfest!",
+               "fun_fact": "I love Student Fest!",
                "favorite_emoji": "🎉"
              }]' web/contributors-live/contributors.json > tmp.json && mv tmp.json web/contributors-live/contributors.json
 

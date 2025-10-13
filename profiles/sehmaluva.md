@@ -28,7 +28,7 @@ Docker      ████░░░░░░ 4/10
 Kubernetes  ██░░░░░░░░ 2/10
 ```
 
-## 🏆 Hacktoberfest 2025 Goals
+## 🏆 Student Fest 2025 Goals
 
 - [x] Create my interactive profile
 - [x] Redesign the entire project structure
@@ -38,7 +38,7 @@ Kubernetes  ██░░░░░░░░ 2/10
 - [ ] Build 3 example web projects
 - [ ] Help review 20 community PRs
 - [ ] Connect with 50 new developers
-- [ ] Organize virtual Hacktoberfest meetup
+- [ ] Organize virtual Student Fest meetup
 
 ## 🎮 Achievement Progress
 
@@ -77,7 +77,7 @@ Kubernetes  ██░░░░░░░░ 2/10
 
 ### Projects Built
 - **Badge Generator Web App** - Interactive web-based badge creator
-- **Contribution Tracker** - Dashboard for monitoring Hacktoberfest progress
+- **Contribution Tracker** - Dashboard for monitoring Student Fest progress
 - *Planning*: Portfolio generator, challenge validator, community leaderboard
 
 ### Community Contributions
@@ -114,7 +114,7 @@ Started as a curious beginner, learned through open source contributions, and no
 
 ## 🏆 Special Achievements
 
-- 🎯 **Project Founder**: Created Hacktoberfest Interactive Experience 2025
+- 🎯 **Project Founder**: Created Student Fest Interactive Experience 2025
 - 🏗️ **Architect**: Designed gamified contribution system
 - 📚 **Educator**: Created comprehensive learning resources
 - 🌟 **Community Builder**: Establishing inclusive developer community
@@ -153,7 +153,7 @@ Started as a curious beginner, learned through open source contributions, and no
 *Profile created on: October 13, 2025*  
 *Last updated: October 13, 2025*
 
-**Ready to contribute? Let's make Hacktoberfest 2025 the most interactive and engaging yet! 🎃**
+**Ready to contribute? Let's make Student Fest 2025 the most interactive and engaging yet! �**
 
 ---
 

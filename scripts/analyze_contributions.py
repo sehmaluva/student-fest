@@ -3,7 +3,7 @@
 Contribution Analysis and Statistics Generator
 
 Analyzes all contributions in the repository and generates comprehensive statistics
-for the interactive Hacktoberfest project.
+for the interactive Student Fest project.
 """
 
 import os
@@ -322,7 +322,7 @@ class ContributionAnalyzer:
 
 
 def main():
-    analyzer = ContributionAnalyzer("/home/gilbert/Desktop/hacktoberfest")
+    analyzer = ContributionAnalyzer("/home/gilbert/Desktop/student-fest")
     stats = analyzer.generate_contribution_summary()
 
     print("📊 Contribution Analysis Complete!")

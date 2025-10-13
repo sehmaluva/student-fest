@@ -1,4 +1,4 @@
-# 🌐 Hacktoberfest Badge Generator
+# 🌐 Student Fest Badge Generator
 
 **Category**: Web Application  
 **Difficulty**: Intermediate  
@@ -7,7 +7,7 @@
 
 ## 📝 Project Overview
 
-Create a dynamic web application that generates personalized Hacktoberfest achievement badges for contributors. Users can input their information, select their achievements, and generate beautiful badges to showcase on their GitHub profiles or social media.
+Create a dynamic web application that generates personalized Student Fest achievement badges for contributors. Users can input their information, select their achievements, and generate beautiful badges to showcase on their GitHub profiles or social media.
 
 ## 🎯 Features to Implement
 
@@ -30,14 +30,14 @@ Create a dynamic web application that generates personalized Hacktoberfest achie
 ## 🎨 Design Requirements
 
 ### Badge Elements
-- **Header**: "Hacktoberfest 2025 Contributor"
+- **Header**: "Student Fest 2025 Contributor"
 - **User Info**: Name, GitHub handle, contribution count
 - **Achievement Icons**: Visual representations of accomplishments
 - **Style Elements**: Colors, patterns, decorative elements
 - **Footer**: Project attribution
 
 ### Style Themes
-1. **Classic**: Traditional Hacktoberfest colors (orange, dark)
+1. **Classic**: Traditional Student Fest colors (orange, dark)
 2. **Modern**: Clean, minimal design with gradients
 3. **Retro**: Vintage computing aesthetics
 4. **Neon**: Cyberpunk-inspired glowing effects
@@ -109,7 +109,7 @@ Users can select from these achievements:
 
 ### Contribution Achievements
 - [ ] **First Timer**: Made first open source contribution
-- [ ] **Regular**: Completed 4+ PRs for Hacktoberfest
+- [ ] **Regular**: Completed 4+ PRs for Student Fest
 - [ ] **Overachiever**: Completed 10+ PRs
 - [ ] **Quality Contributor**: All PRs accepted without changes
 - [ ] **Multi-Language**: Contributed in 3+ programming languages
@@ -247,7 +247,7 @@ Your project will be evaluated on:
 ## 🌟 Community Impact
 
 This project helps:
-- Celebrate Hacktoberfest contributors
+- Celebrate Student Fest contributors
 - Create shareable achievement recognition
 - Build community engagement
 - Provide portfolio piece for developers

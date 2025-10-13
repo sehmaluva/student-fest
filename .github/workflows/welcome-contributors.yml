@@ -38,7 +38,7 @@ jobs:
 
           if (isFirstTime) {
             const welcomeMessage = [
-              '🎉 **Welcome to Hacktoberfest!** @' + prAuthor,
+              '🎉 **Welcome to Student Fest!** @' + prAuthor,
               '',
               'Thank you for your first contribution to our interactive project! 🚀',
               '',
@@ -51,7 +51,7 @@ jobs:
               '## 📚 Resources for new contributors:',
               '- 📖 [Contribution Guide](docs/guides/CONTRIBUTING.md)',
               '- 🛠️ [Setup Instructions](docs/guides/SETUP.md)',
-              '- 💬 [Join our Discord](https://discord.gg/hacktoberfest)',
+              '- 💬 [Join our Discord](https://discord.gg/student-fest)',
               '- 🏆 [Achievement System](docs/guides/ACHIEVEMENTS.md)',
               '',
               '## 🎯 Quick Tips:',
@@ -155,7 +155,7 @@ jobs:
             '- How it would work',
             '- Any mockups or examples',
             '',
-            'Thanks again for contributing to our interactive Hacktoberfest project! 🎃'
+            'Thanks again for contributing to our interactive Student Fest project! �'
           ].join('\n');
 
           await github.rest.issues.createComment({

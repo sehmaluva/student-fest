@@ -35,7 +35,7 @@ Docker      ███░░░░░░░ 3/10
 Kubernetes  █░░░░░░░░░ 1/10
 ```
 
-## 🏆 Hacktoberfest 2025 Goals
+## 🏆 Student Fest 2025 Goals
 
 - [ ] Create my interactive profile
 - [ ] Complete 4 meaningful PRs
@@ -121,7 +121,7 @@ Add something unique about yourself:
 *Profile created on: [Date]*  
 *Last updated: [Date]*
 
-**Ready to contribute? Let's make Hacktoberfest 2025 amazing! 🎃**
+**Ready to contribute? Let's make Student Fest 2025 amazing! �**
 ```
 
 ---

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Badge Generation System for Hacktoberfest Interactive Project
+Badge Generation System for Student Fest Interactive Project
 
 This script generates dynamic achievement badges for contributors based on:
 - Number of contributions
@@ -65,8 +65,8 @@ class BadgeGenerator:
                 "color": "#E91E63",
                 "icon": "🤝",
             },
-            "hacktoberfest-hero": {
-                "name": "Hacktoberfest Hero",
+            "studentfest-hero": {
+                "name": "Student Fest Hero",
                 "description": "Outstanding contributions",
                 "color": "#FF5722",
                 "icon": "🏆",
@@ -98,7 +98,7 @@ class BadgeGenerator:
         if challenges_solved > 0:
             badges_earned.append("challenge-solver")
             if challenges_solved >= 5:
-                badges_earned.append("hacktoberfest-hero")
+                badges_earned.append("studentfest-hero")
 
         # Check projects
         projects_built = 0
@@ -267,11 +267,11 @@ def main():
 
     if len(sys.argv) > 1:
         username = sys.argv[1]
-        generator = BadgeGenerator("/home/gilbert/Desktop/hacktoberfest")
+    generator = BadgeGenerator("/home/gilbert/Desktop/student-fest")
         badges = generator.generate_user_badges(username)
         print(f"Generated {len(badges)} badges for {username}")
     else:
-        generator = BadgeGenerator("/home/gilbert/Desktop/hacktoberfest")
+    generator = BadgeGenerator("/home/gilbert/Desktop/student-fest")
         all_badges = generator.generate_all_badges()
         print(f"Generated badges for {len(all_badges)} contributors")
 

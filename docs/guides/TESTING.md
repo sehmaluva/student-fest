@@ -1,4 +1,4 @@
-# 🧪 Testing Your Code - Interactive Hacktoberfest
+# 🧪 Testing Your Code - Interactive Student Fest
 
 Welcome to our comprehensive testing guide! This document will help you ensure your contributions are robust, reliable, and ready for production.
 

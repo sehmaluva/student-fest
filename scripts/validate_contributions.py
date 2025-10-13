@@ -33,7 +33,7 @@ class ContributionValidator:
         required_sections = [
             "## 👋 Quick Intro",
             "## 🎯 Interactive Skills Radar",
-            "## 🏆 Hacktoberfest 2025 Goals",
+            "## 🏆 Student Fest 2025 Goals",
             "## 🚀 My Contributions",
         ]
 
@@ -284,7 +284,7 @@ class ContributionValidator:
 
 
 def main():
-    validator = ContributionValidator("/home/gilbert/Desktop/hacktoberfest")
+    validator = ContributionValidator("/home/gilbert/Desktop/student-fest")
     is_valid, errors, warnings = validator.validate_all_contributions()
 
     print("🔍 Contribution Validation Results")

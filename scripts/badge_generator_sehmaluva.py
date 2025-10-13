@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-Hacktoberfest Interactive Contributor Badge Generator
+Student Fest Interactive Contributor Badge Generator
 A simple Python script to generate ASCII art badges for contributors
 
 Created by: sehmaluva
 Date: October 13, 2025
-Purpose: Example script for the new interactive Hacktoberfest experience
+Purpose: Example script for the new interactive Student Fest experience
 """
 
 import datetime
@@ -13,7 +13,7 @@ from typing import List, Dict
 
 
 class BadgeGenerator:
-    """Generate ASCII art badges for Hacktoberfest contributors"""
+    """Generate ASCII art badges for Student Fest contributors"""
 
     THEMES = {
         "classic": {"border": "=", "fill": " ", "accent": "*"},
@@ -48,7 +48,7 @@ class BadgeGenerator:
 
         # Header
         lines.append(self.create_border())
-        lines.append(self.create_border("🎃 HACKTOBERFEST 2025 CONTRIBUTOR 🎃"))
+    lines.append(self.create_border("� STUDENT FEST 2025 CONTRIBUTOR �"))
         lines.append(self.create_border())
         lines.append(self.create_text_line(""))
 
@@ -102,7 +102,7 @@ class BadgeGenerator:
 
 def get_user_input() -> Dict[str, any]:
     """Get contributor information from user input"""
-    print("🎃 Welcome to the Hacktoberfest Badge Generator! 🎃\n")
+    print("� Welcome to the Student Fest Badge Generator! �\n")
 
     data = {}
     data["name"] = input("Enter your name: ").strip()
@@ -163,7 +163,7 @@ def main():
 
         # Display result
         print("\n" + "=" * 60)
-        print("🎉 YOUR HACKTOBERFEST BADGE IS READY! 🎉")
+    print("🎉 YOUR STUDENT FEST BADGE IS READY! 🎉")
         print("=" * 60)
         print(badge)
         print("=" * 60)
@@ -171,12 +171,12 @@ def main():
         # Save option
         save = input("\nWould you like to save this badge to a file? (y/n): ")
         if save.lower() in ["y", "yes"]:
-            filename = f"hacktoberfest_badge_{contributor_data['github']}.txt"
+            filename = f"studentfest_badge_{contributor_data['github']}.txt"
             with open(filename, "w", encoding="utf-8") as f:
                 f.write(badge)
             print(f"✅ Badge saved as {filename}")
 
-        print("\n🎃 Thank you for being part of Hacktoberfest 2025! 🎃")
+    print("\n� Thank you for being part of Student Fest 2025! �")
         print("🚀 Keep contributing and building awesome things! 🚀")
 
     except KeyboardInterrupt:

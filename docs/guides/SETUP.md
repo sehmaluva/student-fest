@@ -1,6 +1,6 @@
-# 🛠️ Setup Guide - Hacktoberfest Interactive Experience
+# 🛠️ Setup Guide - Student Fest Interactive Experience
 
-Welcome! This guide will help you set up your local development environment to contribute to our interactive Hacktoberfest project.
+Welcome! This guide will help you set up your local development environment to contribute to our interactive Student Fest project.
 
 ## 📋 Prerequisites
 
@@ -22,7 +22,7 @@ Before you start, make sure you have:
 
 ### 1. Fork the Repository
 
-1. Go to [https://github.com/sehmaluva/hacktoberfest](https://github.com/sehmaluva/hacktoberfest)
+1. Go to [https://github.com/sehmaluva/student-fest](https://github.com/sehmaluva/student-fest)
 2. Click the "Fork" button in the top-right corner
 3. Choose your GitHub account as the destination
 
@@ -30,13 +30,13 @@ Before you start, make sure you have:
 
 ```bash
 # Replace YOUR_USERNAME with your GitHub username
-git clone https://github.com/YOUR_USERNAME/hacktoberfest.git
+git clone https://github.com/YOUR_USERNAME/student-fest.git
 
 # Navigate to the project directory
-cd hacktoberfest
+cd student-fest
 
 # Add upstream remote (to sync with original repo)
-git remote add upstream https://github.com/sehmaluva/hacktoberfest.git
+git remote add upstream https://github.com/sehmaluva/student-fest.git
 
 # Verify remotes
 git remote -v
@@ -169,7 +169,7 @@ If you're working with Go:
 
 ```bash
 # Initialize Go module (if go.mod doesn't exist)
-go mod init hacktoberfest-contribution
+go mod init student-fest-contribution
 
 # Install dependencies
 go mod tidy
@@ -334,8 +334,8 @@ git clean -fd
 
 ### Getting Help
 
-- 🐛 **Issues**: [GitHub Issues](https://github.com/sehmaluva/hacktoberfest/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/sehmaluva/hacktoberfest/discussions)
+- 🐛 **Issues**: [GitHub Issues](https://github.com/sehmaluva/student-fest/issues)
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/sehmaluva/student-fest/discussions)
 - 📧 **Direct Contact**: Reach out to [@sehmaluva](https://github.com/sehmaluva)
 - 📚 **Documentation**: Check our comprehensive guides in `docs/`
 
@@ -352,7 +352,7 @@ You're all set! Choose your adventure and start building something amazing:
 
 ---
 
-**Happy Hacking! 🎃 Let's make Hacktoberfest 2025 unforgettable! 🚀**
+**Happy Hacking! � Let's make Student Fest 2025 unforgettable! 🚀**
 
 *Setup guide created by: sehmaluva*  
 *Last updated: October 13, 2025*

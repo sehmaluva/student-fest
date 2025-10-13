@@ -1,6 +1,6 @@
-# 📖 Contributing to Hacktoberfest Interactive Experience
+# 📖 Contributing to Student Fest Interactive Experience
 
-Welcome, contributor! We're thrilled you want to be part of our interactive Hacktoberfest experience. This guide will help you make meaningful contributions that benefit the entire community.
+Welcome, contributor! We're thrilled you want to be part of our interactive Student Fest experience. This guide will help you make meaningful contributions that benefit the entire community.
 
 ## 🌟 Code of Conduct
 
@@ -85,8 +85,8 @@ Help review and improve other contributors' work.
 1. **Fork the Repository**
    ```bash
    # Click "Fork" on GitHub, then clone your fork
-   git clone https://github.com/YOUR_USERNAME/hacktoberfest.git
-   cd hacktoberfest
+   git clone https://github.com/YOUR_USERNAME/student-fest.git
+   cd student-fest
    ```
 
 2. **Create a Branch**
@@ -239,8 +239,8 @@ Include visual proof of your changes.
 ## ❓ Need Help?
 
 ### Getting Support
-- 🐛 [Report Issues](https://github.com/sehmaluva/hacktoberfest/issues)
-- 💬 [Join Discussions](https://github.com/sehmaluva/hacktoberfest/discussions)
+- 🐛 [Report Issues](https://github.com/sehmaluva/student-fest/issues)
+- 💬 [Join Discussions](https://github.com/sehmaluva/student-fest/discussions)
 - 📧 Contact [@sehmaluva](https://github.com/sehmaluva)
 
 ### Common Questions
@@ -266,7 +266,7 @@ We can't wait to see what you'll build! Remember:
 - Help others along the way
 - Have fun and be creative!
 
-**Let's make Hacktoberfest 2025 the most interactive and engaging yet! 🚀**
+**Let's make Student Fest 2025 the most interactive and engaging yet! 🚀**
 
 ---
 

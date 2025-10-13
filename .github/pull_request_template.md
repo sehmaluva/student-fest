@@ -1,4 +1,4 @@
-# 🎃 Hacktoberfest 2025 - Pull Request
+# � Student Fest 2025 - Pull Request
 
 ## 📋 Description
 <!-- Provide a brief description of the changes you've made -->
@@ -69,4 +69,4 @@ Relates to #
 
 
 ---
-**Happy Hacktoberfest! 🎃** Thank you for contributing to open source! 🚀
+**Happy Student Fest! �** Thank you for contributing to open source! 🚀

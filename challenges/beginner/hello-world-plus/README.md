@@ -35,7 +35,7 @@ Today is: October 13, 2025, 2:30 PM
 
 Fun Fact: Did you know that Python was named after the British comedy group Monty Python? 🎭
 
-Thanks for joining our Hacktoberfest Interactive Experience! 
+Thanks for joining our Student Fest Interactive Experience! 
 Keep coding and have a wonderful day! ✨
 ```
 
