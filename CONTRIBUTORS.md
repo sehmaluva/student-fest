@@ -1,5 +1,19 @@
 # 🌟 Contributors Hall of Fame
 
+## 📝 Beginner Tasks (Start Here!)
+
+Welcome, first-time contributors! Complete these simple tasks to get started and see your name on our live contributors page:
+
+1. **Add your name** to the contributors list below.
+2. **Write a fun fact** about yourself (e.g., favorite language, hobby, or emoji).
+3. **Solve the Hello World Emoji Challenge**: Add your favorite emoji next to your name.
+4. **Star this repository** ⭐ ([Click here!](https://github.com/sehmaluva/hacktoberfest))
+5. **Open your first Pull Request** and get it merged!
+
+Once your PR is merged and you’ve completed these steps, you’ll appear on our [Live Contributors Page](web/contributors-live/)!
+
+---
+
 Welcome to our amazing community of contributors! This project wouldn't be possible without the dedication and creativity of developers from around the world.
 
 ---
@@ -118,8 +132,12 @@ Our contributors come from all around the world!
 
 <div align="center">
 
-**Want to see your name here? [Start contributing today!](README.md#how-to-contribute) 🚀**
+**Want to see your name here and on our [Live Contributors Page](web/contributors-live/)? [Start contributing today!](README.md#how-to-contribute) 🚀**
 
 *Updated automatically with each contribution*
+
+<br>
+
+<strong>⭐ Don’t forget to star this repository after your first contribution! ⭐</strong>
 
 </div>
