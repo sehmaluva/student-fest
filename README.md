@@ -1,4 +1,4 @@
-# 🎃 Hacktoberfest Interactive Experience 2025 🎯# 🎃 
+# 🎃 Hacktoberfest Interactive Experience 2025 🎯#
 
 Hacktoberfest Community Starter – [v1.0] 🎃
 
