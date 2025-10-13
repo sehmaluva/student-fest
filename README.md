@@ -57,8 +57,8 @@ Share useful utilities and automation:
 ### Step 1: Fork & Clone
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/student-fest.git
-cd student-fest
+git clone https://github.com/YOUR_USERNAME/hactoberfest.git
+cd hacktoberfest
 ```
 
 ### Step 2: Choose Your Contribution
