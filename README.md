@@ -9,7 +9,7 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 > 🚀 **A completely reimagined project** by [sehmaluva](https://github.com/sehmaluva)
-> This is a **fork** of [AliceWonderland's Student Fest Starter Project](https://github.com/AliceWonderland/student-fest)
+> This is a **fork** of [AliceWonderland's Student Fest Starter Project](https://github.com/AliceWonderland/hacktoberfest)
 > Licensed under the [GNU GPLv3 License](LICENSE)
 
 ---
