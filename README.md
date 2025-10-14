@@ -1,5 +1,5 @@
 
-# Open Source Interactive Experience 2025 🎯
+# Intro To Open Source Interactive Experience🎯
 
 ## Open Source Student Community Starter – [v1.0]
 
@@ -9,7 +9,7 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 > 🚀 **A completely reimagined project** by [sehmaluva](https://github.com/sehmaluva)
-> This is a **fork** of [AliceWonderland's Student Fest Starter Project](https://github.com/AliceWonderland/student-fest)
+> This is a **fork** of [AliceWonderland's Student Fest Starter Project](https://github.com/AliceWonderland/hacktoberfest)
 > Licensed under the [GNU GPLv3 License](LICENSE)
 
 ---
@@ -57,7 +57,7 @@ Share useful utilities and automation:
 ### Step 1: Fork & Clone
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/hactoberfest.git
+git clone https://github.com/YOUR_USERNAME/student-fest.git
 cd student-fest
 ```
 
