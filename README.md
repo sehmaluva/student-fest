@@ -9,7 +9,7 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 > 🚀 **A completely reimagined project** by [sehmaluva](https://github.com/sehmaluva)
-> This is a **fork** of [AliceWonderland's Student Fest Starter Project](https://github.com/AliceWonderland/hacktoberfest)
+> This project is inspired by [AliceWonderland's Student Fest Starter Project](https://github.com/AliceWonderland/hacktoberfest)
 > Licensed under the [GNU GPLv3 License](LICENSE)
 
 ---
@@ -27,8 +27,6 @@ This isn't just another starter project – it's a **comprehensive platform** de
 #### 1. **Create Your Interactive Profile** 👤
 Build a dynamic profile showcasing your skills and progress:
 - Add your bio, skills, and goals
-- Track your Student Fest progress
-- Earn and display achievement badges
 - Connect with other contributors
 
 #### 2. **Tackle Coding Challenges** 🧩
@@ -91,15 +89,6 @@ cd student-fest
 
 - ❓ [FAQ](docs/guides/FAQ.md)
 
-### Developer Guides
--  [Deployment Guide](docs/guides/DEPLOYMENT.md)
-### Project Ideas
-- 🌐 [Web Development Projects](docs/guides/WEB_PROJECTS.md)
-- 🎮 [Game Development Ideas](docs/guides/GAME_PROJECTS.md)
-- 🛠️ [CLI Tool Concepts](docs/guides/CLI_PROJECTS.md)
-- ⚡ [Utility Script Ideas](docs/guides/UTILITY_SCRIPTS.md)
-
----
 
 ## 🤝 Community Guidelines
 
@@ -174,23 +163,7 @@ cd student-fest
 
 *Statistics updated automatically via GitHub Actions*
 
----
 
-## 🎉 Student Fest 2025 Timeline
-
-- **October 1-31**: Contribution period
-- **Daily**: New challenges and projects added
-- **Weekly**: Community events and AMAs
-- **Ongoing**: Badge generation and progress tracking
-- **End of Month**: Final leaderboard and celebration
-
----
-
-## 🙏 Acknowledgments
-
-### Original Project
-- **AliceWonderland** – For the original Student Fest starter project
-- **Student Fest Team** – For organizing this amazing event
 
 ### Contributors
 This project thrives thanks to our amazing community! See our [Contributors Gallery](CONTRIBUTORS.md) for the full list.
