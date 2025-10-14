@@ -4,7 +4,19 @@ This directory contains GitHub issue templates that help contributors create wel
 
 ## Available Templates
 
-### 🐛 **Bug Report** (`bug-report.md`)
+### � **Default Issue Template** (`../issue_template.md`)
+- General-purpose template for any type of issue
+- Provides guidance and pre-filled information
+- Automatically used when creating issues without selecting a specific template
+- Labels: `needs-triage`
+
+### 📝 **Detailed Default Issue** (`00-default-issue.md`)
+- Comprehensive template with extensive guidance
+- Perfect for new contributors who need extra help
+- Includes welcome message and resource links
+- Labels: `needs-triage`
+
+### �🐛 **Bug Report** (`bug-report.md`)
 - Report bugs, errors, or unexpected behavior
 - Includes environment information and reproduction steps
 - Labels: `bug`, `triage`
