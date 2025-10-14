@@ -4,7 +4,7 @@
 - **Name**: Seh Maluva
 - **Location**: Harare, Zimbabwe
 - **Interests**: Open Source, Software Development, Community Building
-- **Skills**: JavaScript, Python, Git, Docker
+- **Skills**: JavaScript, Python, Java, C++, Git, Docker
 - **Role**: Software Engineering Student
 - **GitHub**: [@sehmaluva](https://github.com/sehmaluva)
 
@@ -48,7 +48,7 @@ I'm passionate about making open source more accessible and engaging for develop
 
 ## 📫 Connect With Me
 
-- 🌐 **Portfolio**: [Link](https://sehmaluva.me/)
+- 🌐 **Portfolio**: [Click Link](https://sehmaluva.me/)
 - 💼 **LinkedIn**: [Connect with me](https://linkedin.com/in/malvin-t-machingura)
 - 📧 **Email**: [sehmaluva](mailto:sehmaluva@gmail.com)
 - 💬 **Discussions**: Always active in project discussions
