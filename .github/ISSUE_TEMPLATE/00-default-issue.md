@@ -8,7 +8,7 @@ assignees: ''
 
 ## 📝 General Issue
 
-> **Welcome to the Hacktoberfest Interactive Experience!** 🎉
+> **Welcome to the student-fest Interactive Experience!** 🎉
 > 
 > Thank you for contributing to our project. This template will help you create a well-structured issue.
 > If you're looking for something specific, consider using one of our specialized templates instead.
@@ -51,25 +51,25 @@ Describe what success looks like for this issue.
 
 Before submitting, please make sure you have:
 
-- [ ] 📖 Read the [Contributing Guidelines](https://github.com/sehmaluva/hacktoberfest/blob/main/CONTRIBUTING.md)
+- [ ] 📖 Read the [Contributing Guidelines](https://github.com/sehmaluva/student-fest/blob/main/CONTRIBUTING.md)
 - [ ] 🔍 Searched existing issues to avoid duplicates
 - [ ] 🏷️ Selected the appropriate issue type above
 - [ ] 📝 Provided clear description and context
-- [ ] 🎯 Followed the [Code of Conduct](https://github.com/sehmaluva/hacktoberfest/blob/main/CODE_OF_CONDUCT.md)
+- [ ] 🎯 Followed the [Code of Conduct](https://github.com/sehmaluva/student-fest/blob/main/CODE_OF_CONDUCT.md)
 
 ---
 
-### 🚀 Getting Started with Hacktoberfest
+### 🚀 Getting Started with student-fest
 
 **New to the project?** Here are some helpful resources:
 
-- 📚 [Setup Guide](https://github.com/sehmaluva/hacktoberfest/blob/main/docs/guides/SETUP.md)
-- 🎯 [Contribution Ideas](https://github.com/sehmaluva/hacktoberfest/blob/main/README.md#-choose-your-adventure)
-- 👥 [Community Profiles](https://github.com/sehmaluva/hacktoberfest/tree/main/profiles)
-- 🧩 [Available Challenges](https://github.com/sehmaluva/hacktoberfest/tree/main/challenges)
+- 📚 [Setup Guide](https://github.com/sehmaluva/student-fest/blob/main/docs/guides/SETUP.md)
+- 🎯 [Contribution Ideas](https://github.com/sehmaluva/student-fest/blob/main/README.md#-choose-your-adventure)
+- 👥 [Community Profiles](https://github.com/sehmaluva/student-fest/tree/main/profiles)
+- 🧩 [Available Challenges](https://github.com/sehmaluva/student-fest/tree/main/challenges)
 
 **Looking for your first contribution?** 
-Check out issues labeled [`good first issue`](https://github.com/sehmaluva/hacktoberfest/labels/good%20first%20issue) or [`beginner-friendly`](https://github.com/sehmaluva/hacktoberfest/labels/beginner-friendly)!
+Check out issues labeled [`good first issue`](https://github.com/sehmaluva/student-fest/labels/good%20first%20issue) or [`beginner-friendly`](https://github.com/sehmaluva/student-fest/labels/beginner-friendly)!
 
 ---
 

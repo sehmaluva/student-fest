@@ -6,7 +6,7 @@ labels: needs-triage
 assignees: ''
 ---
 
-## 🎯 Welcome to Hacktoberfest! 
+## 🎯 Welcome to student-fest! 
 
 Thank you for contributing to our project! This template will guide you through creating a well-structured issue.
 
@@ -117,7 +117,7 @@ Thank you for contributing to our project! This template will guide you through 
 - [ ] 📚 Learn a new programming language or framework
 - [ ] 🏗️ Build my portfolio with real-world projects
 - [ ] 🤝 Collaborate with other developers
-- [ ] 🎖️ Earn Hacktoberfest recognition
+- [ ] 🎖️ Earn student-fest recognition
 - [ ] 💡 Share knowledge and help others learn
 - [ ] 🔧 Improve my coding skills
 - [ ] 🌟 Give back to the open source community
@@ -187,8 +187,8 @@ Thank you for contributing to our project! This template will guide you through 
 **Before submitting this issue, I have:**
 
 - [ ] 🔍 Searched existing issues to avoid duplicates
-- [ ] 📖 Read the [Contributing Guidelines](https://github.com/sehmaluva/hacktoberfest/blob/main/CONTRIBUTING.md)
-- [ ] 🎯 Read the [Code of Conduct](https://github.com/sehmaluva/hacktoberfest/blob/main/CODE_OF_CONDUCT.md)
+- [ ] 📖 Read the [Contributing Guidelines](https://github.com/sehmaluva/student-fest/blob/main/CONTRIBUTING.md)
+- [ ] 🎯 Read the [Code of Conduct](https://github.com/sehmaluva/student-fest/blob/main/CODE_OF_CONDUCT.md)
 - [ ] 📚 Checked the project documentation and README
 - [ ] ✏️ Filled out all relevant sections above
 - [ ] 🏷️ Selected appropriate labels (if possible)
@@ -233,4 +233,4 @@ Thank you for contributing to our project! This template will guide you through 
 
 ---
 
-> **🌟 Thank you for contributing to Hacktoberfest!** Your contribution helps make open source more accessible and welcoming for everyone. We're excited to work with you!
+> **🌟 Thank you for contributing to student-fest!** Your contribution helps make open source more accessible and welcoming for everyone. We're excited to work with you!

@@ -1,6 +1,6 @@
 # Issue Templates Overview
 
-This directory contains GitHub issue templates that help contributors create well-structured issues for the Hacktoberfest project. Each template is designed for specific types of contributions and issues.
+This directory contains GitHub issue templates that help contributors create well-structured issues for the student-fest project. Each template is designed for specific types of contributions and issues.
 
 ## Available Templates
 
@@ -42,12 +42,12 @@ This directory contains GitHub issue templates that help contributors create wel
 ### 🚀 **Project Proposal** (`project-proposal.md`)
 - Suggest new projects for the repository
 - Covers web apps, CLI tools, games, and utilities
-- Labels: `project`, `enhancement`, `hacktoberfest`
+- Labels: `project`, `enhancement`, `student-fest`
 
 ### 👤 **Profile Contribution** (`profile-contribution.md`)
 - Request to add or update contributor profiles
 - Helps new contributors get started with the community
-- Labels: `profile`, `documentation`, `hacktoberfest`
+- Labels: `profile`, `documentation`, `student-fest`
 
 ### 📚 **Documentation Improvement** (`documentation-improvement.md`)
 - Suggest improvements to documentation, guides, or README files
@@ -68,7 +68,7 @@ This directory contains GitHub issue templates that help contributors create wel
 
 The `config.yml` file:
 - Disables blank issues to encourage using templates
-- Provides links to GitHub Discussions, Hacktoberfest site, and contribution guidelines
+- Provides links to GitHub Discussions, student-fest site, and contribution guidelines
 - Helps direct users to appropriate resources
 
 ## Usage Guidelines

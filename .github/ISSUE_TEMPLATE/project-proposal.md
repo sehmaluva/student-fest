@@ -2,7 +2,7 @@
 name: 🚀 Project Proposal
 about: Propose a new project for the repository
 title: "[PROJECT] - Brief description of the project"
-labels: project, enhancement, hacktoberfest
+labels: project, enhancement, student-fest
 assignees: ''
 ---
 

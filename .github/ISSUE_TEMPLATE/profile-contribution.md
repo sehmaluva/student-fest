@@ -2,7 +2,7 @@
 name: 👤 Profile Contribution
 about: Add or update a contributor profile
 title: "[PROFILE] - Add profile for [YOUR_USERNAME]"
-labels: profile, documentation, hacktoberfest
+labels: profile, documentation, student-fest
 assignees: ''
 ---
 
@@ -32,9 +32,9 @@ A brief introduction about yourself (1-2 sentences)
 - [ ] Intermediate (Some experience with projects)
 - [ ] Advanced (Experienced developer)
 
-**Hacktoberfest Goals:**
+**student-fest Goals:**
 
-What do you hope to achieve during Hacktoberfest?
+What do you hope to achieve during student-fest?
 
 - [ ] Make my first open source contribution
 - [ ] Learn new technologies
