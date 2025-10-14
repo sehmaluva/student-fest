@@ -97,7 +97,7 @@ cd student-fest
 - 🌍 **Inclusive** – Welcome contributors from all backgrounds
 
 ### Getting Help
-- 💬 **Discord Community**: [Join our server](https://discord.gg/student-fest)
+<!-- - 💬 **Discord Community**: [Join our server](https://discord.gg/student-fest) -->
 - 🐛 **Issues**: [Report bugs or request features](https://github.com/sehmaluva/student-fest/issues)
 
 ### 🌟 Ways to Contribute
@@ -184,7 +184,7 @@ This project is licensed under the **GNU General Public License v3.0** – see t
 
 <div align="center">
 
-## � Happy Hacking! Let's Make Student Fest 2025 Interactive! 🎯
+## � Happy Hacking! Let's Make Student Fest Interactive! 🎯
 
 **Remember**: Every contribution counts, no matter how small! 🌟
 
