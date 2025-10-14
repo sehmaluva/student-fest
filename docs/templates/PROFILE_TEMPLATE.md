@@ -15,69 +15,6 @@ Copy this template to create your own profile in the `profiles/` directory.
 - **Role**: Your Title/Role (e.g., Student, Developer, Designer)
 - **GitHub**: [@yourusername](https://github.com/yourusername)
 
-## 🎯 Interactive Skills Radar
-
-Rate your skills from 1-10 and create a visual representation:
-
-```
-Programming Languages:
-JavaScript   ████████░░ 8/10
-Python      ██████░░░░ 6/10
-Java        ████░░░░░░ 4/10
-Go          ██░░░░░░░░ 2/10
-```
-
-**Frameworks & Tools:**
-```
-React       ███████░░░ 7/10
-Node.js     █████░░░░░ 5/10
-Docker      ███░░░░░░░ 3/10
-Kubernetes  █░░░░░░░░░ 1/10
-```
-
-## 🏆 Student Fest 2025 Goals
-
-- [ ] Create my interactive profile
-- [ ] Complete 4 meaningful PRs
-- [ ] Solve 3 beginner challenges
-- [ ] Build 1 web project
-- [ ] Help review 2 other PRs
-- [ ] Learn a new programming language
-- [ ] Connect with 5 new developers
-
-## 🎮 Achievement Progress
-
-### 🥉 Bronze Level (0/3)
-- [ ] Profile created
-- [ ] First challenge solved
-- [ ] First PR merged
-
-### 🥈 Silver Level (0/6)
-- [ ] 3 challenges completed
-- [ ] 1 project built
-- [ ] 2 PRs reviewed
-- [ ] Help 1 newcomer
-- [ ] Document 1 feature
-- [ ] Fix 1 bug
-
-### 🥇 Gold Level (0/5)
-- [ ] Advanced challenge solved
-- [ ] Multiple projects built
-- [ ] Mentor other contributors
-- [ ] Create new challenge
-- [ ] Lead community initiative
-
-## 🚀 My Contributions to This Repo
-
-### Challenges Solved
-- *None yet - but excited to start!*
-
-### Projects Built
-- *Coming soon...*
-
-### Community Contributions
-- *Ready to help others!*
-
 ## 🌟 About Me
 
 Write a brief description about yourself:
@@ -116,12 +53,6 @@ Add something unique about yourself:
 - Cool achievements
 - Random facts
 
----
-
-*Profile created on: [Date]*  
-*Last updated: [Date]*
-
-**Ready to contribute? Let's make Student Fest 2025 amazing! �**
 ```
 
 ---
@@ -140,10 +71,9 @@ Add something unique about yourself:
 - Use emojis to make your profile engaging 
 - Add visual elements like progress bars
 - Include links to your work and social profiles
-- Set realistic goals and track your progress
 - Celebrate small wins along the way
 - Connect with other contributors
 
 ---
 
-**Ready to create your profile? Copy the template above and make it your own! 🚀**
+**Ready to create your profile? Copy the template above and make it your own!**
