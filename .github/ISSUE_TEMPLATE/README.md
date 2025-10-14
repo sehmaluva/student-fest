@@ -16,6 +16,14 @@ This directory contains GitHub issue templates that help contributors create wel
 - Includes welcome message and resource links
 - Labels: `needs-triage`
 
+### � **General Contribution** (`general-contribution.md`)
+- **⭐ MOST COMPREHENSIVE** - Interactive template with extensive tickable fields
+- Covers ALL contribution types with detailed guidance
+- Includes experience level, skills assessment, and timeline planning
+- Perfect for contributors who want structured guidance
+- Helps maintainers understand contributor background and goals
+- Labels: `needs-triage`
+
 ### �🐛 **Bug Report** (`bug-report.md`)
 - Report bugs, errors, or unexpected behavior
 - Includes environment information and reproduction steps
