@@ -1,9 +1,9 @@
 ---
 name: 👤 Profile Contribution
-description: Add or update a contributor profile
+about: Add or update a contributor profile
 title: "[PROFILE] - Add profile for [YOUR_USERNAME]"
-labels: ["profile", "documentation", "hacktoberfest"]
-assignees: []
+labels: profile, documentation, hacktoberfest
+assignees: ''
 ---
 
 ## 👤 Profile Contribution

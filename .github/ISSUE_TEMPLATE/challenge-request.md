@@ -1,9 +1,9 @@
 ---
 name: 🧩 Challenge Request
-description: Suggest a new coding challenge for the project
+about: Suggest a new coding challenge for the project
 title: "[CHALLENGE] - Brief description of the challenge"
-labels: ["challenge", "enhancement"]
-assignees: []
+labels: challenge, enhancement
+assignees: ''
 ---
 
 ## 🧩 Challenge Request

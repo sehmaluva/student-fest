@@ -1,9 +1,9 @@
 ---
 name: 📚 Documentation Improvement
-description: Suggest improvements to documentation, guides, or README files
+about: Suggest improvements to documentation, guides, or README files
 title: "[DOCS] - Brief description of documentation issue"
-labels: ["documentation", "enhancement", "good first issue"]
-assignees: []
+labels: documentation, enhancement, good first issue
+assignees: ''
 ---
 
 ## 📚 Documentation Improvement

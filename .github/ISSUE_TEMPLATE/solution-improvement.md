@@ -1,9 +1,9 @@
 ---
 name: 🔧 Solution Improvement
-description: Suggest improvements to existing challenge solutions or projects
+about: Suggest improvements to existing challenge solutions or projects
 title: "[IMPROVEMENT] - Brief description of the improvement"
-labels: ["enhancement", "solution-improvement", "good first issue"]
-assignees: []
+labels: enhancement, solution-improvement, good first issue
+assignees: ''
 ---
 
 ## 🔧 Solution Improvement

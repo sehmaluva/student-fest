@@ -1,9 +1,9 @@
 ---
 name: ✨ Feature Request
-description: Suggest a new feature or enhancement
+about: Suggest a new feature or enhancement
 title: "[FEATURE] - Brief description of the feature"
-labels: ["enhancement", "feature-request"]
-assignees: []
+labels: enhancement, feature-request
+assignees: ''
 ---
 
 ## ✨ Feature Request

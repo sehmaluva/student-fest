@@ -1,9 +1,9 @@
 ---
 name: 📋 General Contribution
-description: A comprehensive template with guided fields for any type of contribution
+about: A comprehensive template with guided fields for any type of contribution
 title: "[TYPE] - Brief description"
-labels: ["needs-triage"]
-assignees: []
+labels: needs-triage
+assignees: ''
 ---
 
 ## 🎯 Welcome to Hacktoberfest! 

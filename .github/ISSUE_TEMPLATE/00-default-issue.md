@@ -1,9 +1,9 @@
 ---
 name: 📝 General Issue
-description: Create a general issue with helpful guidance
+about: Create a general issue with helpful guidance
 title: "Brief description of your issue"
-labels: ["needs-triage"]
-assignees: []
+labels: needs-triage
+assignees: ''
 ---
 
 ## 📝 General Issue

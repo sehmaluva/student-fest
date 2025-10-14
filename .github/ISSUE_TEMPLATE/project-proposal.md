@@ -1,9 +1,9 @@
 ---
 name: 🚀 Project Proposal
-description: Propose a new project for the repository
+about: Propose a new project for the repository
 title: "[PROJECT] - Brief description of the project"
-labels: ["project", "enhancement", "hacktoberfest"]
-assignees: []
+labels: project, enhancement, hacktoberfest
+assignees: ''
 ---
 
 ## 🚀 Project Proposal

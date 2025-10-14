@@ -1,9 +1,9 @@
 ---
 name: ❓ Question or Discussion
-description: Ask a question about the project or start a discussion
+about: Ask a question about the project or start a discussion
 title: "[QUESTION] - Brief description of your question"
-labels: ["question", "discussion"]
-assignees: []
+labels: question, discussion
+assignees: ''
 ---
 
 ## ❓ Question or Discussion
