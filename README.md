@@ -9,7 +9,7 @@
 
 > 🚀 **Built by students, for students** – Created by [sehmaluva](https://github.com/sehmaluva)
 > 
-> Inspired by [AliceWonderland's Student Fest Starter Project](https://github.com/AliceWonderland/hacktoberfest)
+> Inspired by [AliceWonderland's Hactober Fest Starter Project](https://github.com/AliceWonderland/hacktoberfest)
 > 
 > Licensed under the [GNU GPLv3 License](LICENSE)
 
