@@ -3,10 +3,9 @@
 ## 👋 Quick Intro
 - **Name**: Seh Maluva
 - **School**: Bindura University Of Science Education
-- **Field of Study**: BSc.Software Wngineering
+- **Field of Study**: BSc.Software Engineering
 - **Interests**: Open Source, Software Development, Community Building
 - **Skills**: JavaScript, Python, Java, C++, Git, Docker
-- **Role**: Software Engineering Student
 - **GitHub**: [@sehmaluva](https://github.com/sehmaluva)
 
 ## 🚀 My Contributions to This Repo
