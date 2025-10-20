@@ -49,6 +49,9 @@ Welcome to our amazing community of contributors! This project wouldn't be possi
 
 *Get Bronze by creating your profile, solving 1 challenge, and making your first PR*
 
+### vishwajeet deshmane 🖖
+### fun-fact - One of my favourite hobbies are GArdening and Gym Workout.
+###
 ---
 
 ## 🎯 Challenge Champions
