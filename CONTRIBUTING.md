@@ -16,7 +16,7 @@ By participating, you agree to:
 Create an interactive profile showcasing your skills and journey.
 
 **Steps:**
-1. Use the [Profile Template](../templates/PROFILE_TEMPLATE.md)
+1. Use the [Profile Template](docs/templates/PROFILE_TEMPLATE.md)
 2. Create `profiles/YOUR_GITHUB_USERNAME.md`
 3. Include your skills, goals, and achievements
 4. Make it engaging and authentic!
