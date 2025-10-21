@@ -12,14 +12,8 @@
 
 ### Challenges solved
 
-<<<<<<< HEAD
-- **Hello World Plus** - Interactive beginner challenge with personalization
-- **React Lottery Game** - Implemented a beginner friendly project called Lottery game using React
-- **Badge Generator** - CLI tool for creating ASCII art badges
-- *Planning*: Algorithm challenges, web API challenges, game development challenges
-=======
 - **Hello World Plus** - successfully implemented the suitable solution based on Hello World Plus challenge in java accordingly.
->>>>>>> a1cc0b2eaaf91699761f47f2136f367cf9127834
+- **React Lottery Game** - Implemented a beginner friendly project called Lottery game using React
 
 ## 📫 Connect With Me
 
