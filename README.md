@@ -23,7 +23,7 @@
 
 **Not sure where to start?** We've got you covered with step-by-step guides.
 
-This project is designed **specifically for students** – whether you're in your first semester learning to code or a senior preparing for your career. Everyone is welcome, and every contribution matters! 🌟
+This project is designed **for students and first time contributors** – whether you're in your first semester learning to code and collaborate or a senior preparing for your career. Everyone is welcome, and every contribution matters! 🌟
 
 ---
 
