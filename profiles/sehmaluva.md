@@ -1,32 +1,38 @@
-# vishwajeet deshmane - Profile 🚀
+# sehmaluva - Profile 🚀
 
 ## 👋 Quick Intro
-- **Name**: vishwajeet deshmane
-- **School**:  Nutan Maharashtra Institute of Engineering and Technology
-- **Field of Study**: Computer Science Engineering
-- **Interests**: Open Source, Software Development, AI/Ml, DevOps, etc.
-- **Skills**: JavaScript, Python, Java, Git, Docker, AWS
-- **GitHub**: [@o000SAI000o](https://github.com/o000SAI000o)
+- **Name**: Seh Maluva
+- **School**: Bindura University Of Science Education
+- **Field of Study**: BSc.Software Engineering
+- **Interests**: Open Source, Software Development, Community Building
+- **Skills**: JavaScript, Python, Java, C++, Git, Docker
+- **GitHub**: [@sehmaluva](https://github.com/sehmaluva)
 
 ## 🚀 My Contributions to This Repo
 
-### Challenges solved
+### Challenges Created
 
-- **Hello World Plus** - successfully implemented the suitable soltion based on Hello World Plus challenge in java accordingly.
+- **Hello World Plus** - Interactive beginner challenge with personalization
+- **Badge Generator** - CLI tool for creating ASCII art badges
+- *Planning*: Algorithm challenges, web API challenges, game development challenges
 
 ## 📫 Connect With Me
 
-- 💼 **LinkedIn**: [Connect with me](https://www.linkedin.com/in/vishwajeet-deshmane-b81a26259/)
-- 📧 **Email**: [vishwajeetdeshmane](mailto:vishwajitdeshmane2004@gmail.com)
+- 🌐 **Portfolio**: [Click Link](https://sehmaluva.me/)
+- 💼 **LinkedIn**: [Connect with me](https://linkedin.com/in/malvin-t-machingura)
+- 📧 **Email**: [sehmaluva](mailto:sehmaluva@gmail.com)
+- 💬 **Discussions**: Always active in project discussions
 
 ## 🎉 Fun Section
 
-**Favorite Quote:** *"Consistency gives clarity."*
+**Favorite Quote:** *"The best way to learn is to teach, and the best way to grow is to help others grow."*
 
 ---
 
 <div align="center">
 
 ### 🌟 "Together we build, together we grow, together we celebrate open source!" 🌟
+
+*Want to connect? I'm always excited to meet fellow developers and help newcomers get started!*
 
 </div>
