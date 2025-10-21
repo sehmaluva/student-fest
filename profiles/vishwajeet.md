@@ -13,6 +13,7 @@
 ### Challenges Created
 
 - **Hello World Plus** - Interactive beginner challenge with personalization
+- **React Lottery Game** - Implemented a beginner friendly project called Lottery game using React
 - **Badge Generator** - CLI tool for creating ASCII art badges
 - *Planning*: Algorithm challenges, web API challenges, game development challenges
 
