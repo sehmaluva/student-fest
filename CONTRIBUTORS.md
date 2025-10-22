@@ -130,13 +130,7 @@ Our contributors come from all around the world!
 
 ---
 
-<div align="center">
 
-**Want to see your name here and on our [Live Contributors Page](web/contributors-live/)? [Start contributing today!](README.md#how-to-contribute) 🚀**
-
-*Updated automatically with each contribution*
-
-<br>
 
 <strong>⭐ Don’t forget to star this repository after your first contribution! ⭐</strong>
 
