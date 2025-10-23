@@ -9,26 +9,21 @@
 
 > 🚀 **A completely reimagined project** by [sehmaluva](https://github.com/sehmaluva)
 > 
-> Inspired by [AliceWonderland's Student Fest Starter Project](https://github.com/AliceWonderland/hacktoberfest)
+> Inspired by [AliceWonderland's Hactober Fest Starter Project](https://github.com/AliceWonderland/hacktoberfest)
 > 
 > Licensed under the [GNU GPLv3 License](LICENSE)
 
 ---
 
-## 🌟 Welcome to Interactive Programming Fest!
+## 👋 Hey Student! Yes, You!
 
-This isn't just another starter project – it's a **comprehensive platform** designed to make your open source journey **engaging, educational, and rewarding**. Perfect for everyone, from your first commit to advanced contributions!
+**Never contributed to open source before?** Perfect! This is exactly where you should be.
 
-🎯 **Our Mission**: Create an interactive learning environment where contributors can build real skills and connect with a global community of developers.
+**Worried you're not good enough?** You absolutely are! Every expert was once a beginner.
 
-**Whether you're**:
-- 🌱 A complete beginner making your first contribution
-- 👨‍🎓 A student building your portfolio
-- 💼 A professional looking to give back
-- 🧑‍💻 A self-taught developer gaining experience
-- 🌍 Someone from anywhere in the world
+**Not sure where to start?** We've got you covered with step-by-step guides.
 
-**You belong here!** Every contribution matters, and everyone starts somewhere.
+This project is designed **for students and first time contributors** – whether you're in your first semester learning to code and collaborate or a senior preparing for your career. Everyone is welcome, and every contribution matters! 🌟
 
 ---
 
