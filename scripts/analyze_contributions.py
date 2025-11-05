@@ -240,7 +240,7 @@ class ContributionAnalyzer:
                     username = solution_file.name.split("_")[0]
                     contributors.add(username)
 
-        # From projects
+        # From project
         projects_dir = self.repo_path / "projects"
         if projects_dir.exists():
             for project_dir in projects_dir.rglob("*"):
