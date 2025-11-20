@@ -117,7 +117,7 @@ cd student-fest
 **Perfect if you're**: Ready to create something from scratch or add major features
 
 **Start with**:
-- 🚀 Build a project from our [Project Ideas](docs/guides/PROJECT_IDEAS.md)
+- 🚀 Build a project from our [Project Ideas](projects/PROJECT_IDEAS.md)
 - 🔧 Create a useful CLI tool or script
 - 🎮 Develop a simple game
 - 🌐 Build a web application
