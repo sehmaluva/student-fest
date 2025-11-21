@@ -89,20 +89,31 @@ jobs:
           }
 
           // Check if this is the author's first PR
+          // Use the pulls.list API instead of search to avoid permission issues
           const prAuthor = context.payload.pull_request.user.login;
-          const { data: userPRs } = await github.rest.search.issuesAndPullRequests({
-            q: `author:${prAuthor} repo:${owner}/${repo} type:pr`,
-            per_page: 2
-          });
+          try {
+            const { data: authorPRs } = await github.rest.pulls.list({
+              owner,
+              repo,
+              state: 'all',
+              per_page: 100
+            });
 
-          if (userPRs.items.length === 1) {
-            labels.add('first-contribution');
-            labels.add('good-first-issue');
+            // Filter PRs by this author
+            const userPRs = authorPRs.filter(pr => pr.user.login === prAuthor);
+
+            if (userPRs.length === 1) {
+              labels.add('first-contribution');
+              labels.add('good-first-issue');
+            }
+          } catch (error) {
+            // If we can't determine first-time status, just skip this label
+            console.log('Could not determine first-time contributor status:', error.message);
           }
 
           // Convert Set to Array and add labels
           const labelsArray = Array.from(labels);
-          
+
           if (labelsArray.length > 0) {
             await github.rest.issues.addLabels({
               owner,
