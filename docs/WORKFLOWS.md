@@ -183,9 +183,11 @@ Each workflow run shows:
 
 Keep actions up to date by checking for newer versions:
 - `actions/checkout` - currently v4
-- `actions/setup-python` - currently v4
+- `actions/setup-python` - currently v5
 - `actions/setup-node` - currently v4
-- `dorny/paths-filter` - currently v2
+- `actions/setup-java` - currently v4
+- `actions/setup-go` - currently v5
+- `dorny/paths-filter` - currently v3
 - `actions/labeler` - currently v5
 
 ### Adding New Languages
