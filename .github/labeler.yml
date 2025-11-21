@@ -1,0 +1,37 @@
+# Auto-labeler configuration for pull requests
+
+profile:
+  - profiles/**/*
+
+challenge:
+  - challenges/**/*
+
+project:
+  - projects/**/*
+
+script:
+  - scripts/**/*
+
+documentation:
+  - docs/**/*
+  - '*.md'
+  - .github/**/*.md
+
+beginner-friendly:
+  - profiles/**/*
+  - challenges/beginner/**/*
+
+intermediate:
+  - challenges/intermediate/**/*
+
+advanced:
+  - challenges/advanced/**/*
+
+github-actions:
+  - .github/workflows/**/*
+
+dependencies:
+  - package.json
+  - requirements.txt
+  - go.mod
+  - pom.xml

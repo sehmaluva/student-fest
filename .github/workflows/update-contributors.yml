@@ -1,39 +1,30 @@
-name: Update Contributors
+name: 🙏 Update Contributors
+
 on:
+  push:
+    branches: [ main ]
   pull_request:
     types: [closed]
 
 jobs:
-  update-json:
-    if: github.event.pull_request.merged == true
+  update-contributors:
+    if: github.event_name == 'push' || github.event.pull_request.merged == true
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Get PR author
-        id: get_author
-        run: echo "::set-output name=author::${{ github.event.pull_request.user.login }}"
-
-      - name: Update contributors.json
-        run: |
-          # This is a simple placeholder script. A more robust solution would be needed.
-          # It assumes the contributor is not already in the file.
-          jq --arg username "${{ steps.get_author.outputs.author }}" \
-             --arg avatar "https://github.com/${{ steps.get_author.outputs.author }}.png" \
-             --arg profile "https://github.com/${{ steps.get_author.outputs.author }}" \
-             '. += [{
-               "username": $username,
-               "avatar_url": $avatar,
-               "profile_url": $profile,
-               "contributions": {"profiles": 0, "challenges": 0, "projects": 0, "scripts": 0},
-               "badges": ["First Steps"],
-               "fun_fact": "I love Student Fest!",
-               "favorite_emoji": "🎉"
-             }]' web/contributors-live/contributors.json > tmp.json && mv tmp.json web/contributors-live/contributors.json
-
-      - name: Commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v4
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
         with:
-          commit_message: "chore: update contributors.json"
-          file_pattern: "web/contributors-live/contributors.json"
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 🎉 Update Contributors List
+        uses: akhilmhdh/contributors-readme-action@v2.3.6
+        with:
+          readme_path: 'CONTRIBUTORS.md'
+          committer_username: 'github-actions[bot]'
+          committer_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: 'docs: update contributors list [skip ci]'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
