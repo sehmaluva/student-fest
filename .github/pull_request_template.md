@@ -18,5 +18,5 @@
 
 
 ## 📌 Related Issue(s)
-<!-- Link any related issues here using #issue_number, e.g., Closes #123 -->
-Closes #issue_number
+<!-- Link any related issues here. Replace XXX with the issue number. -->
+Closes #XXX
