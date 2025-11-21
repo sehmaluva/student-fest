@@ -18,5 +18,5 @@
 
 
 ## 📌 Related Issue(s)
-<!-- Link any related issues here using #issue_number -->
-Closes #
+<!-- Link any related issues here using #issue_number, e.g., Closes #123 -->
+Closes #issue_number
