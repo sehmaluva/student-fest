@@ -1,0 +1,173 @@
+name: 🏷️ PR Auto Labeler
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  label-pr:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+
+    steps:
+    - name: 📥 Checkout code
+      uses: actions/checkout@v4
+
+    - name: 🏷️ Label based on changed files
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const { owner, repo } = context.repo;
+          const prNumber = context.payload.pull_request.number;
+
+          // Get list of files changed in the PR
+          const { data: files } = await github.rest.pulls.listFiles({
+            owner,
+            repo,
+            pull_number: prNumber,
+          });
+
+          const labels = new Set();
+
+          // Analyze files and determine labels
+          for (const file of files) {
+            const path = file.filename;
+
+            // Type-based labels
+            if (path.startsWith('profiles/')) {
+              labels.add('profile');
+              labels.add('contribution');
+            }
+            if (path.startsWith('challenges/')) {
+              labels.add('challenge');
+              labels.add('contribution');
+            }
+            if (path.startsWith('projects/')) {
+              labels.add('project');
+              labels.add('contribution');
+            }
+            if (path.startsWith('scripts/')) {
+              labels.add('script');
+              labels.add('automation');
+            }
+            if (path.startsWith('docs/') || path.endsWith('.md')) {
+              labels.add('documentation');
+            }
+            if (path.startsWith('.github/workflows/')) {
+              labels.add('workflow');
+              labels.add('automation');
+            }
+
+            // Language-based labels
+            if (path.endsWith('.py')) labels.add('python');
+            if (path.endsWith('.js') || path.endsWith('.jsx')) labels.add('javascript');
+            if (path.endsWith('.ts') || path.endsWith('.tsx')) labels.add('typescript');
+            if (path.endsWith('.java')) labels.add('java');
+            if (path.endsWith('.go')) labels.add('go');
+            if (path.endsWith('.cpp') || path.endsWith('.hpp') || path.endsWith('.c') || path.endsWith('.h')) labels.add('cpp');
+            if (path.endsWith('.rs')) labels.add('rust');
+            if (path.endsWith('.rb')) labels.add('ruby');
+          }
+
+          // Size labels based on number of files and lines changed
+          const additions = context.payload.pull_request.additions;
+          const deletions = context.payload.pull_request.deletions;
+          const totalChanges = additions + deletions;
+
+          if (totalChanges < 10) {
+            labels.add('size/XS');
+          } else if (totalChanges < 50) {
+            labels.add('size/S');
+          } else if (totalChanges < 200) {
+            labels.add('size/M');
+          } else if (totalChanges < 500) {
+            labels.add('size/L');
+          } else {
+            labels.add('size/XL');
+          }
+
+          // Check if this is the author's first PR
+          const prAuthor = context.payload.pull_request.user.login;
+          const { data: userPRs } = await github.rest.search.issuesAndPullRequests({
+            q: `author:${prAuthor} repo:${owner}/${repo} type:pr`,
+            per_page: 2
+          });
+
+          if (userPRs.items.length === 1) {
+            labels.add('first-contribution');
+            labels.add('good-first-issue');
+          }
+
+          // Convert Set to Array and add labels
+          const labelsArray = Array.from(labels);
+          
+          if (labelsArray.length > 0) {
+            await github.rest.issues.addLabels({
+              owner,
+              repo,
+              issue_number: prNumber,
+              labels: labelsArray
+            });
+          }
+
+    - name: 📊 Add PR size comment
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const { owner, repo } = context.repo;
+          const prNumber = context.payload.pull_request.number;
+          const additions = context.payload.pull_request.additions;
+          const deletions = context.payload.pull_request.deletions;
+          const totalChanges = additions + deletions;
+
+          let sizeEmoji = '📦';
+          let sizeText = 'Medium';
+          let advice = '';
+
+          if (totalChanges < 10) {
+            sizeEmoji = '🔹';
+            sizeText = 'Extra Small';
+            advice = 'Perfect size for a quick review! ⚡';
+          } else if (totalChanges < 50) {
+            sizeEmoji = '🔸';
+            sizeText = 'Small';
+            advice = 'Nice and focused! Easy to review. 👍';
+          } else if (totalChanges < 200) {
+            sizeEmoji = '📦';
+            sizeText = 'Medium';
+            advice = 'Good size. Should be reviewable in one sitting. 📖';
+          } else if (totalChanges < 500) {
+            sizeEmoji = '📚';
+            sizeText = 'Large';
+            advice = 'This is getting big. Consider breaking it into smaller PRs if possible. 🔨';
+          } else {
+            sizeEmoji = '🏗️';
+            sizeText = 'Extra Large';
+            advice = 'Very large PR! Consider splitting this into multiple smaller PRs for easier review. 🔧';
+          }
+
+          const comment = [
+            '## ' + sizeEmoji + ' Pull Request Size: **' + sizeText + '**',
+            '',
+            '**Changes:** +' + additions + ' / -' + deletions + ' lines',
+            '',
+            advice,
+            '',
+            '### 📋 Review Checklist',
+            '- [ ] Code follows project style guidelines',
+            '- [ ] Tests added/updated (if applicable)',
+            '- [ ] Documentation updated (if needed)',
+            '- [ ] No unnecessary changes included',
+            '- [ ] Commits are logical and well-described',
+            '',
+            'This is an automated message. Labels have been added automatically based on your changes.'
+          ].join('\n');
+
+          await github.rest.issues.createComment({
+            owner,
+            repo,
+            issue_number: prNumber,
+            body: comment
+          });
