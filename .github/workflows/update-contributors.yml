@@ -6,6 +6,9 @@ on:
   pull_request:
     types: [closed]
 
+permissions:
+  contents: write
+
 jobs:
   update-contributors:
     if: github.event_name == 'push' || github.event.pull_request.merged == true
