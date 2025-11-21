@@ -18,5 +18,6 @@
 
 
 ## 📌 Related Issue(s)
-<!-- Link any related issues here. Replace XXX with the issue number. -->
+<!-- Link related issues using closing keywords (Closes, Fixes, Resolves) followed by issue number. -->
+<!-- Examples: Closes #123, Fixes #456, Resolves #789 -->
 Closes #XXX
