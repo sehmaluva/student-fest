@@ -1,0 +1,227 @@
+name: 🔍 PR Quality Checker
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  check-pr-quality:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+
+    steps:
+    - name: 📥 Checkout code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: 🔍 Check PR title
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const { owner, repo } = context.repo;
+          const prNumber = context.payload.pull_request.number;
+          const prTitle = context.payload.pull_request.title;
+          
+          const issues = [];
+          const suggestions = [];
+
+          // Check for good commit message prefixes
+          const conventionalPrefixes = ['feat', 'fix', 'docs', 'style', 'refactor', 'test', 'chore', 'perf', 'ci', 'build'];
+          const hasConventionalPrefix = conventionalPrefixes.some(prefix => 
+            prTitle.toLowerCase().startsWith(prefix + ':') || 
+            prTitle.toLowerCase().startsWith(prefix + '(')
+          );
+
+          // Check for common issues
+          if (prTitle.length < 10) {
+            issues.push('❌ Title is too short (less than 10 characters)');
+            suggestions.push('Use a descriptive title that explains what the PR does');
+          }
+
+          if (prTitle === prTitle.toUpperCase() && prTitle.length > 5) {
+            issues.push('⚠️ Title is in ALL CAPS');
+            suggestions.push('Use normal capitalization for better readability');
+          }
+
+          if (prTitle.toLowerCase().includes('update') || prTitle.toLowerCase().includes('fix')) {
+            suggestions.push('Consider being more specific: What did you update/fix?');
+          }
+
+          if (!hasConventionalPrefix) {
+            suggestions.push('Consider using conventional commit format: `feat: `, `fix: `, `docs: `, etc.');
+          }
+
+          // Provide feedback if there are issues or suggestions
+          if (issues.length > 0 || suggestions.length > 0) {
+            let comment = '## 📝 PR Title Feedback\n\n';
+            
+            if (issues.length > 0) {
+              comment += '### Issues Found:\n';
+              issues.forEach(issue => comment += `- ${issue}\n`);
+              comment += '\n';
+            }
+
+            if (suggestions.length > 0) {
+              comment += '### 💡 Suggestions:\n';
+              suggestions.forEach(suggestion => comment += `- ${suggestion}\n`);
+              comment += '\n';
+            }
+
+            comment += '### ✅ Good PR Title Examples:\n';
+            comment += '- `feat: add student profile for john-doe`\n';
+            comment += '- `fix: resolve validation error in profile submission`\n';
+            comment += '- `docs: improve contribution guidelines`\n';
+            comment += '- `chore: update dependencies`\n\n';
+            comment += '*This is a helpful reminder. Your PR can still be merged, but a clear title helps reviewers!*';
+
+            await github.rest.issues.createComment({
+              owner,
+              repo,
+              issue_number: prNumber,
+              body: comment
+            });
+          }
+
+    - name: 🔍 Check PR description
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const { owner, repo } = context.repo;
+          const prNumber = context.payload.pull_request.number;
+          const prBody = context.payload.pull_request.body || '';
+
+          const issues = [];
+          const tips = [];
+
+          // Check if description is too short
+          if (prBody.trim().length < 50) {
+            issues.push('❌ PR description is very short or empty');
+            tips.push('Add details about what you changed and why');
+            tips.push('Include testing steps if applicable');
+            tips.push('Mention any related issues using #issue_number');
+          }
+
+          // Check for template usage
+          const hasChecklist = prBody.includes('- [ ]') || prBody.includes('- [x]');
+          const hasDescription = prBody.includes('Description');
+          const hasType = prBody.includes('Type of Contribution');
+
+          if (!hasChecklist && !hasDescription && !hasType) {
+            tips.push('Consider using the PR template - it helps provide all necessary information');
+          }
+
+          // Check if "Closes #" or "Fixes #" is used
+          const hasIssueReference = /closes #\d+|fixes #\d+|resolves #\d+/i.test(prBody);
+          if (!hasIssueReference && prBody.length > 50) {
+            tips.push('If this PR fixes an issue, use "Closes #issue_number" to auto-close it when merged');
+          }
+
+          // Provide feedback
+          if (issues.length > 0 || tips.length > 0) {
+            let comment = '## 📋 PR Description Feedback\n\n';
+
+            if (issues.length > 0) {
+              comment += '### Issues Found:\n';
+              issues.forEach(issue => comment += `- ${issue}\n`);
+              comment += '\n';
+            }
+
+            if (tips.length > 0) {
+              comment += '### 💡 Tips for Better PR Descriptions:\n';
+              tips.forEach(tip => comment += `- ${tip}\n`);
+              comment += '\n';
+            }
+
+            comment += '### ✅ Good PR Description Should Include:\n';
+            comment += '1. **What**: What changes did you make?\n';
+            comment += '2. **Why**: Why did you make these changes?\n';
+            comment += '3. **How**: How did you implement it?\n';
+            comment += '4. **Testing**: How did you test it?\n';
+            comment += '5. **Related**: Link to related issues or PRs\n\n';
+            comment += '*You can edit your PR description anytime by clicking "Edit" at the top!*';
+
+            await github.rest.issues.createComment({
+              owner,
+              repo,
+              issue_number: prNumber,
+              body: comment
+            });
+          }
+
+    - name: 🔍 Check for common mistakes
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const { owner, repo } = context.repo;
+          const prNumber = context.payload.pull_request.number;
+
+          // Get list of files changed in the PR
+          const { data: files } = await github.rest.pulls.listFiles({
+            owner,
+            repo,
+            pull_number: prNumber,
+          });
+
+          const warnings = [];
+          const tips = [];
+
+          // Check for common issues
+          let hasPackageLock = false;
+          let hasNodeModules = false;
+          let hasDSStore = false;
+          let hasLargeFiles = false;
+
+          for (const file of files) {
+            if (file.filename.includes('package-lock.json') || file.filename.includes('yarn.lock')) {
+              hasPackageLock = true;
+            }
+            if (file.filename.includes('node_modules/')) {
+              hasNodeModules = true;
+            }
+            if (file.filename.includes('.DS_Store')) {
+              hasDSStore = true;
+            }
+            if (file.changes > 1000) {
+              hasLargeFiles = true;
+            }
+          }
+
+          if (hasNodeModules) {
+            warnings.push('❌ **node_modules/** detected in your changes');
+            tips.push('Add `node_modules/` to `.gitignore` and remove it from git: `git rm -r --cached node_modules/`');
+          }
+
+          if (hasDSStore) {
+            warnings.push('⚠️ **.DS_Store** file detected (macOS system file)');
+            tips.push('Add `.DS_Store` to `.gitignore` and remove it: `git rm --cached .DS_Store`');
+          }
+
+          if (hasLargeFiles) {
+            warnings.push('⚠️ Large file changes detected (>1000 lines)');
+            tips.push('Consider breaking this into smaller, focused PRs');
+          }
+
+          if (files.length > 50) {
+            warnings.push('⚠️ Many files changed (>50)');
+            tips.push('Large PRs are harder to review. Consider splitting into multiple PRs');
+          }
+
+          // Provide feedback if warnings exist
+          if (warnings.length > 0) {
+            let comment = '## ⚠️ Common Issues Detected\n\n';
+            
+            warnings.forEach(warning => comment += `${warning}\n`);
+            comment += '\n### 🔧 How to Fix:\n';
+            tips.forEach(tip => comment += `- ${tip}\n`);
+            comment += '\n*These are automated checks to help you. Feel free to ask if you need help!*';
+
+            await github.rest.issues.createComment({
+              owner,
+              repo,
+              issue_number: prNumber,
+              body: comment
+            });
+          }
