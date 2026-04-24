@@ -17,10 +17,9 @@
 - Building connections with other student developers  
 
 ## How to Reach Me
-- 📧 Email: anshuman@quorta.tech  (for public info mation and stuff)
-- 📧 Email: lahaanshuman@gmail.com (for Confedintial Conversations)
-- 🌐 GitHub:  https://github.com/lahaanshuman-tech
+- 🌐 GitHub: https://github.com/lahaanshuman-tech
 - 🌐 My Growing Foundation: https://quorta.tech
+- 💬 For contact, please use GitHub or the contact options available on my website
 
 ---
 
