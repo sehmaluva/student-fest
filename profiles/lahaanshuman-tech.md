@@ -18,7 +18,7 @@
 
 ## How to Reach Me
 - 🌐 GitHub: https://github.com/lahaanshuman-tech
-- 🌐 My Growing Foundation: https://quorta.tech
+- 🌐 My Growing Foundation: [quorta.tech](https://quorta.tech)
 - 💬 For contact, please use GitHub or the contact options available on my website
 
 ---
