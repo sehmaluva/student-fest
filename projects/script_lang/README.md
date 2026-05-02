@@ -9,7 +9,7 @@ You can make it like Python and Java or like you dont compile you Just Run it on
 
 ## 🎯 Core Features
 
-1.  **Command-Line Arguments**: it should have Commandline Aguments for Comiplation 
+1.  **Command-Line Arguments**: it should have Commandline Arguments for Comiplation 
 
 2.  **The Syntax of the Language**:  It has to be simple
 3.  **Categorization**: You can also make You Inter preter Run your Own Byte code files
