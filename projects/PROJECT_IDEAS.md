@@ -21,6 +21,7 @@ For those comfortable with a programming language and ready to tackle more compl
 3. **Web Scraper**: A script to scrape and display specific data (e.g., headlines, prices) from a website.
 4. **File Organizer Script**: A script that organizes files in a specified directory into subfolders based on file type (e.g., images, documents, videos).
 5. **Simple Blog Platform**: A basic blogging system where users can create, edit, and delete posts. Add a commenting feature.
+6. **Simple Encode and Decode Program**: A basic program which can encode in Ceasar Chiper or Base64 
 
 ## 🌳 Advanced Project Ideas
 
