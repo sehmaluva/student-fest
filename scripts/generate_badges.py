@@ -267,11 +267,11 @@ def main():
 
     if len(sys.argv) > 1:
         username = sys.argv[1]
-    generator = BadgeGenerator("/home/gilbert/Desktop/student-fest")
+        generator = BadgeGenerator("/home/gilbert/Desktop/student-fest")
         badges = generator.generate_user_badges(username)
         print(f"Generated {len(badges)} badges for {username}")
     else:
-    generator = BadgeGenerator("/home/gilbert/Desktop/student-fest")
+        generator = BadgeGenerator("/home/gilbert/Desktop/student-fest")
         all_badges = generator.generate_all_badges()
         print(f"Generated badges for {len(all_badges)} contributors")
 

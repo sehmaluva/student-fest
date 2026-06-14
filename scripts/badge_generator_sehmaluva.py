@@ -48,7 +48,7 @@ class BadgeGenerator:
 
         # Header
         lines.append(self.create_border())
-    lines.append(self.create_border("� STUDENT FEST 2025 CONTRIBUTOR �"))
+        lines.append(self.create_border("� STUDENT FEST 2025 CONTRIBUTOR �"))
         lines.append(self.create_border())
         lines.append(self.create_text_line(""))
 
@@ -163,7 +163,7 @@ def main():
 
         # Display result
         print("\n" + "=" * 60)
-    print("🎉 YOUR STUDENT FEST BADGE IS READY! 🎉")
+        print("🎉 YOUR STUDENT FEST BADGE IS READY! 🎉")
         print("=" * 60)
         print(badge)
         print("=" * 60)
@@ -176,7 +176,7 @@ def main():
                 f.write(badge)
             print(f"✅ Badge saved as {filename}")
 
-    print("\n� Thank you for being part of Student Fest 2025! �")
+        print("\n� Thank you for being part of Student Fest 2025! �")
         print("🚀 Keep contributing and building awesome things! 🚀")
 
     except KeyboardInterrupt:
